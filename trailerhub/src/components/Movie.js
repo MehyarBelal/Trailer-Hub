@@ -14,7 +14,7 @@ const Movie = ({movie}) => {
         <h4> Released: {movie.release_date}</h4>
 
 <p>{movie.overview}</p>
-<p><span>⭐</span> {movie.vote_average}</p>
+<p className='rating'><span>⭐</span> {movie.vote_average}</p>
         </div>
        
     </div>

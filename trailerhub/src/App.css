@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -50,9 +51,35 @@
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  padding: 2em;
 }
 
+.content h1{
+  font-size: 50px;
+}
 .moviegrid{
   padding: 2em 20em;
 }
 
+.logo h1{
+  font-size: 4em;
+  font-weight: 300;
+}
+
+.rating{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+footer{
+  background-color: #ffaf40;
+  color:white;
+  height: 2em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  background-color: #f1f2f6;
+}

@@ -3,6 +3,9 @@ import React from 'react'
 import {useEffect,useState} from 'react';
 import Movie from './Movie';
 import Moviegrid from './Moviegrid';
+import Input from './Input';
+import Logo from './Logo';
+import Footer from './Footer'
 function Main() {
 
 
@@ -27,11 +30,13 @@ useEffect(() =>{
 },[])
 
   return (
-    <div>
+    <div className='main'>
+        <Logo />
+        <Input />
 
 
 <Moviegrid   movies={movies}/>
-
+<Footer />
     </div>
     
   )
