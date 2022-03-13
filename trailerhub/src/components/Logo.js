@@ -5,7 +5,7 @@ function Logo() {
   return (
     <div className='logo'>
 
-        <h1> Movie Spot    <FontAwesomeIcon icon="coffee" />
+        <h1> Movie Spot   (this is to test Github)
 </h1>
     </div>
   )
