@@ -41,6 +41,7 @@
   background-color: white;
   display:flex;
   margin-bottom: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .content{
@@ -54,3 +55,4 @@
 .moviegrid{
   padding: 2em 20em;
 }
+
