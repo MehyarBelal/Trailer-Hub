@@ -40,9 +40,23 @@
 
 .card{
   background-color: white;
+  width: 100%;
+  height: 100%;
   display:flex;
   margin-bottom: 2em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image img{
+  height: 470px;
+  width: 320px;
+}
+
+.image{
+  padding: 2em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content{
@@ -58,7 +72,7 @@
   font-size: 50px;
 }
 .moviegrid{
-  padding: 2em 20em;
+  padding: 2em 13em;
 }
 
 .logo h1{

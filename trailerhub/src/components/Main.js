@@ -19,7 +19,6 @@ useEffect(() =>{
             `https://api.themoviedb.org/3/trending/all/day?api_key=35cfc478b958ad286f645acb4faf0c15`
         
         
-        
             )
 
             console.log(result.data.results)
