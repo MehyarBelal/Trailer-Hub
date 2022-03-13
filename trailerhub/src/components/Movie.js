@@ -9,6 +9,7 @@ const Movie = ({movie}) => {
         <h1>{movie.original_title}</h1>
 <img src={imageUrl} />
 <p>{movie.overview}</p>
+<p>Rating: {movie.vote_average}</p>
     </div>
 }
 
