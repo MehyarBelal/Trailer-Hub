@@ -27,7 +27,7 @@ useEffect(() =>{
 },[])
 
   return (
-    <div>Main
+    <div>
 
 
 <Moviegrid   movies={movies}/>

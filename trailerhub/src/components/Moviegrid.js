@@ -9,7 +9,7 @@ const Moviegrid = ({movies}) =>{
     
     return(
       
-        <section>
+        <section className='moviegrid'>
 
 
 {movies.map(movie =>(
