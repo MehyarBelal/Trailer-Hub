@@ -8,6 +8,7 @@ const Movie = ({movie}) => {
 
         <h1>{movie.original_title}</h1>
 <img src={imageUrl} />
+<p>{movie.overview}</p>
     </div>
 }
 
