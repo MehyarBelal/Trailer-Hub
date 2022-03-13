@@ -48,8 +48,8 @@
 }
 
 .image img{
-  height: 470px;
-  width: 320px;
+  height: 490px;
+  width: 340px;
 }
 
 .image{
@@ -88,7 +88,7 @@
 footer{
   background-color: #EE5A24;
   color:white;
-  height: 2em;
+  height: 3em;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -98,3 +98,6 @@ footer{
   background-color: #f1f2f6;
 }
 
+iframe{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}

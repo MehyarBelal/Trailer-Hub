@@ -4,7 +4,7 @@ function Logo() {
   return (
     <div className='logo'>
 
-        <h1> Movie Spot   (this is to test Github)
+        <h1> Trailer Hub
 </h1>
     </div>
   )

@@ -42,7 +42,7 @@ let url = 'https://www.youtube.com/embed/' + trailer;
 <p>{movie.overview}</p>
 <p className='rating'><span>⭐</span> {movie.vote_average}</p>
 
-<iframe src={url}></iframe>
+<iframe width="500px" height="250px" src={url}></iframe>
 
 
         </div>
