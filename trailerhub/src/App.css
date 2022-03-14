@@ -46,6 +46,7 @@
   display:flex;
   margin-bottom: 2em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .image img{
@@ -73,7 +74,11 @@
   font-size: 50px;
 }
 .moviegrid{
-  padding: 2em 13em;
+padding: 2em 3em;
+  
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .logo h1{
@@ -183,7 +188,7 @@ padding: 0 2em;
 }
 
 .nav{
-  flex: 2;
+  flex: 1;
 }
 
 .logo2{
