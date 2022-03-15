@@ -2,8 +2,14 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div>
+    <div className='sidebar'>
+<ul>
 
+  <li><a href>Trending</a></li>
+  <li><a href>Trending</a></li>
+  <li><a href>Trending</a></li>
+  <li><a href>Trending</a></li>
+</ul>
 
         
     </div>

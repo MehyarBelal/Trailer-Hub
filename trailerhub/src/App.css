@@ -73,7 +73,9 @@
   font-size: 50px;
 }
 .moviegrid{
-  padding: 2em 13em;
+ 
+  background-color: #61dafb;
+  
 }
 
 .logo h1{
@@ -97,6 +99,8 @@ footer{
 
 .main{
   background-color: #f1f2f6;
+  
+
 }
 
 iframe{
@@ -123,4 +127,12 @@ iframe{
 	100% {
 		opacity: 1;
 	}
+}
+
+
+.sidebar{
+  height: 100%;
+  width: 30%;
+  position: sticky;
+  background-color: #EE5A24;
 }
