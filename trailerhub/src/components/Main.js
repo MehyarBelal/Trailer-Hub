@@ -7,7 +7,10 @@ import Input from './Input';
 import Logo from './Logo';
 import Footer from './Footer'
 import Sidebar from './Sidebar';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 67358f03cb9e517c6c714d0f2353b548fc27cfcb
 function Main() {
 
 
@@ -32,12 +35,13 @@ useEffect(() =>{
 
   return (
     <div className='main'>
-        <Logo />
-        <Input />
+   
+ 
+      
         <Sidebar />
 
-
 <Moviegrid   movies={movies}/>
+<Input />
 <Footer />
     </div>
     

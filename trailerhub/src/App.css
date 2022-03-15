@@ -46,6 +46,7 @@
   display:flex;
   margin-bottom: 2em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .image img{
@@ -79,8 +80,9 @@
 }
 
 .logo h1{
-  font-size: 4em;
-  font-weight: 300;
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  font-weight: 500;
 }
 
 .rating{
@@ -129,6 +131,7 @@ iframe{
 	}
 }
 
+<<<<<<< HEAD
 
 .sidebar{
   height: 100%;
@@ -136,3 +139,70 @@ iframe{
   position: sticky;
   background-color: #EE5A24;
 }
+=======
+.sidebar{
+  background-color: #000000;
+  color:white;
+
+ font-size: 1.5rem;
+ display:flex;
+ justify-content: center;
+ 
+}
+
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: center;
+}
+li{
+
+  transition: 0.2s;
+  padding-left: 120px;
+}
+
+li:hover{
+  cursor: pointer;
+}
+
+li::after{
+  display:block;
+  content: '';
+  background-color: #EE5A24;
+  width: 0;
+  height: 3px;
+  margin-top: 10px;
+  transition: 0.2s;
+
+}
+
+li:hover:after{
+  width: 100px;
+ 
+}
+
+.nav-bar{
+display:flex;
+justify-content: center;
+align-items: center;
+align-items: center;
+width: 100%;
+padding: 0 2em;
+
+}
+
+.logo{
+  flex:1;
+
+}
+
+.nav{
+  flex: 1;
+}
+
+.logo2{
+  flex: 1;
+
+}
+
+>>>>>>> 67358f03cb9e517c6c714d0f2353b548fc27cfcb

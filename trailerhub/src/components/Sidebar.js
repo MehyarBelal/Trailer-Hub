@@ -1,18 +1,36 @@
 import React from 'react'
-
+import Logo from  './Logo'
 function Sidebar() {
   return (
     <div className='sidebar'>
-<ul>
 
-  <li><a href>Trending</a></li>
-  <li><a href>Trending</a></li>
-  <li><a href>Trending</a></li>
-  <li><a href>Trending</a></li>
-</ul>
+<div className='nav-bar'>
 
-        
-    </div>
+  <div className='Logo'>
+<Logo />
+
+  </div>
+  
+  <div className='nav'> <ul>
+
+<li>Now Trending</li>
+     <li>Top rated</li>
+     <li>Coming Soon</li>
+  
+   </ul>
+</div>
+
+<div className='Logotwo'>
+MB
+
+  </div>
+</div>
+  
+
+
+  </div>
+
+       
   )
 }
 
