@@ -4,7 +4,9 @@ function Input() {
   return (
     <div>
 
-        <input />
+        <input placeholder='Search For a Title'/>
+       <button>Search</button>
+
     </div>
   )
 }
