@@ -97,7 +97,7 @@ color:rgb(0, 0, 0);
 .moviegrid{
  
   
-  padding: 7%;
+  padding: 8%;
   
 }
 
@@ -190,7 +190,7 @@ iframe{
 
 }
 li{
-  font-size: 2em;
+  font-size: 1.8em;
   margin-top: 2em;
   width: 100% !important;
   
@@ -198,8 +198,9 @@ li{
 
 li:hover{
 
-  background-color: #dcdde1;
-  color: #282c34;
+color: #ffffff;
+cursor: pointer;
+
 }
 
 input{
@@ -239,4 +240,14 @@ padding-top:1em;
 .logo h1{
  
   font-weight: 600;
+}
+
+.links{
+  
+  text-align: left;
+}
+
+.links i{
+  margin-right: 10px;
+  
 }

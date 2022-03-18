@@ -6,11 +6,11 @@ function Sidebar() {
     <div className='sidebar'>
 
 <div className='logo'><h1>Trailer Hub <i class="fa-solid fa-clapperboard"></i></h1></div>
-<ul>
+<ul class="links">
+<li><i class="fas fa-play"></i>  Now Playing</li>
+  <li><i class="fa-solid fa-arrow-trend-up"></i>  Trending</li>
+  <li><i class="fa-solid fa-thumbs-up"></i>  Top Rated</li>
 
-  <li>Trending</li>
-  <li>Top Rated</li>
-  <li>New Releases</li>
 
 </ul>
         
