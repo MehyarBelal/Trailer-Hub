@@ -6,6 +6,7 @@ import Moviegrid from './Moviegrid';
 import Input from './Input';
 import Logo from './Logo';
 import Footer from './Footer'
+import Sidebar from './Sidebar';
 function Main() {
 
 
@@ -30,6 +31,7 @@ useEffect(() =>{
 
   return (
     <div className='main'>
+     
         <Logo />
         <Input />
 
