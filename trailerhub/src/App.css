@@ -1,4 +1,7 @@
-
+*{
+  padding:0;
+  margin: 0;
+}
 .App {
   text-align: center;
   background-color: #EE5A24;
@@ -144,5 +147,33 @@ iframe{
   color:#dcdde1;
 
   position: fixed;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+ 
 }
 
+
+.sidebar h1{
+  font-size: 1.9em;
+  margin-inline-end: 2% 5%;
+  margin-bottom: 5em;
+}
+
+
+.sidebar ul{
+  list-style: none;
+
+}
+li{
+  font-size: 2em;
+  margin-top: 2em;
+  padding: 5px;
+}
+
+li:hover{
+
+  background-color: #dcdde1;
+  color: #282c34;
+}
