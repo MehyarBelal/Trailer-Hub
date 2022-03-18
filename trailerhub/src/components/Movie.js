@@ -37,10 +37,11 @@ let url = 'https://www.youtube.com/embed/' + trailer;
     </div>
     <div className='content'>
     <h1>{movie.original_title ? movie.original_title :  movie.name}</h1>
+    <p className='rating'> {movie.vote_average} <i id="star" class="fa-solid fa-star"></i></p>
+
         <h4> Release: {movie.release_date ? movie.release_date : "TBA"}</h4>
 
 <p>{movie.overview}</p>
-<p className='rating'><span>⭐</span> {movie.vote_average}</p>
 
 <iframe width="500px" height="250px" src={url}></iframe>
 

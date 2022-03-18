@@ -59,6 +59,7 @@ color:rgb(0, 0, 0);
   width: 100%;
   height: 100%;
   display:flex;
+  font-size: 1em !important;
   
   margin-bottom: 2em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -82,12 +83,12 @@ color:rgb(0, 0, 0);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+
   padding: 2em;
 }
 
 .content h1{
-  font-size: 50px;
+  font-size: 40px;
 }
 .moviegrid{
  
@@ -96,13 +97,16 @@ color:rgb(0, 0, 0);
   
 }
 
+.content p{
+  margin: 1em 0;
+}
 .logo h1{
   font-size: 4em;
   font-weight: 300;
 }
 
 .rating{
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: 700;
 }
 
@@ -216,3 +220,14 @@ input{
   cursor: pointer;
 }
 
+#star{
+  color:#FFC312;
+}
+
+
+.subtitle h2{
+color: #EE5A24;;
+font-size: 50px;
+font-weight: 400;
+padding-top:1em;
+}
