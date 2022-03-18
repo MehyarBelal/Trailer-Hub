@@ -32,7 +32,7 @@ useEffect(() =>{
   return (
     <div className='main'>
      
-        <Logo />
+    
         <Input />
 
 
