@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Input() {
   return (
-    <div>
+    <div className="topbar">
 
         <input placeholder='Search For a Title'/>
        <button>Search</button>

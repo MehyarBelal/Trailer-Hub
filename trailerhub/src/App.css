@@ -57,6 +57,7 @@ body{
 
 }
 
+
 .card{
 background-color: #ffffff;;
 color:rgb(0, 0, 0);
@@ -66,9 +67,11 @@ color:rgb(0, 0, 0);
   font-size: 1em !important;
   border-radius: 6px;
   
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 
 }
+
+
 
 .image img{
   height: 490px;
@@ -93,7 +96,7 @@ color:rgb(0, 0, 0);
 }
 
 .content h1{
-  font-size: 40px;
+  font-size: 42px;
 }
 .moviegrid{
  
@@ -191,8 +194,8 @@ iframe{
 
 }
 li{
-  font-size: 1.8em;
-  margin-top: 2em;
+  font-size: 1.5em;
+  margin-top: 2.1em;
   width: 100% !important;
   
 }
@@ -207,7 +210,7 @@ cursor: pointer;
 input{
   height: 10px;
   width:400px;
-  margin-top: 2em;
+
   padding: 20px;
   border:none;
   font-size: 17px;
@@ -252,3 +255,8 @@ padding-top:1em;
   margin-right: 10px;
   
 }
+
+.topbar{
+padding: 1.5em 0;
+}
+
